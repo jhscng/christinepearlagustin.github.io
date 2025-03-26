@@ -102,37 +102,59 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-/* Hobbies Section */
-.hobbies-section {
-  padding: 3rem 0;
-  text-align: center;
-  background: #ffe6f2;
-}
-.hobby-gallery {
+/* Photography Page */
+.photo-gallery {
   display: flex;
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
-.hobby-gallery img {
-  width: 220px;
+.photo-gallery img {
+  width: 300px;
   border-radius: 8px;
   transition: transform 0.3s ease;
 }
-.hobby-gallery img:hover {
+.photo-gallery img:hover {
   transform: scale(1.05);
 }
-.book-list {
+
+/* Books Page */
+.book-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 2rem;
 }
-.book-list h3 {
-  margin-bottom: 1rem;
+.book-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
 }
-.book-list ul {
-  list-style: none;
-  padding: 0;
+.book-card:hover {
+  transform: translateY(-5px);
+}
+.book-card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+.book-card h3 {
+  margin: 0.5rem 0;
   font-size: 1.1rem;
+}
+.book-card p {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+}
+.book-rating {
+  color: #ffbf00;
+  font-size: 1.2rem;
 }
 
 /* Footer */
